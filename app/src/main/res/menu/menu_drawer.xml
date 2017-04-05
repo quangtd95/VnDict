@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_eng_vie"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="English - Vietnamese" />
+        <item
+            android:id="@+id/nav_eng_eng"
+            android:icon="@drawable/ic_chrome_reader_mode_black_24dp"
+            android:title="English - English" />
+        <item
+            android:id="@+id/nav_vie_eng"
+            android:icon="@drawable/ic_mode_edit_black_24dp"
+            android:title="Vietnamese - English" />
+        <item
+            android:id="@+id/nav_favorite"
+            android:icon="@drawable/ic_format_paint_black_24dp"
+            android:title="Favorites" />
+        <item
+            android:id="@+id/nav_your_words"
+            android:icon="@drawable/ic_book_black_24dp"
+            android:title="Your Words" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_thumb_up_black_24dp"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@drawable/ic_live_help_black_24dp"
+                android:title="Help" />
+        </menu>
+    </item>
+
+</menu>
